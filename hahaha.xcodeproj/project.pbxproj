@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,14 @@
 		41BDA5AF2365958700134A5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BDA5AD2365958700134A5A /* Main.storyboard */; };
 		41BDA5B12365958A00134A5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41BDA5B02365958A00134A5A /* Assets.xcassets */; };
 		41BDA5B42365958A00134A5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BDA5B22365958A00134A5A /* LaunchScreen.storyboard */; };
+		41BDA5BC2365975300134A5A /* newperson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDA5BB2365975300134A5A /* newperson.swift */; };
+		41BDA5E02365C64100134A5A /* personX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDA5DF2365C64100134A5A /* personX.swift */; };
+		41BDA5E22365CF0E00134A5A /* editPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BDA5E12365CF0E00134A5A /* editPerson.swift */; };
+		AED0264CD2620FF57E42DD80 /* Pods_hahaha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD0642FD935D6BE4025FA51 /* Pods_hahaha.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20B3D77198392931D207D0AB /* Pods-hahaha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hahaha.debug.xcconfig"; path = "Target Support Files/Pods-hahaha/Pods-hahaha.debug.xcconfig"; sourceTree = "<group>"; };
 		41BDA5A42365958700134A5A /* hahaha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hahaha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41BDA5A72365958700134A5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41BDA5A92365958700134A5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		41BDA5B02365958A00134A5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41BDA5B32365958A00134A5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41BDA5B52365958A00134A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BDA5BB2365975300134A5A /* newperson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newperson.swift; sourceTree = "<group>"; };
+		41BDA5DF2365C64100134A5A /* personX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personX.swift; sourceTree = "<group>"; };
+		41BDA5E12365CF0E00134A5A /* editPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editPerson.swift; sourceTree = "<group>"; };
+		AAC2B592C2051267FE1769A1 /* Pods-hahaha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hahaha.release.xcconfig"; path = "Target Support Files/Pods-hahaha/Pods-hahaha.release.xcconfig"; sourceTree = "<group>"; };
+		DCD0642FD935D6BE4025FA51 /* Pods_hahaha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hahaha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AED0264CD2620FF57E42DD80 /* Pods_hahaha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				41BDA5A62365958700134A5A /* hahaha */,
 				41BDA5A52365958700134A5A /* Products */,
+				4E1035FD190C88C5D8C9A0A1 /* Pods */,
+				FE996F4917D885B8DE811104 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +71,33 @@
 			children = (
 				41BDA5A72365958700134A5A /* AppDelegate.swift */,
 				41BDA5A92365958700134A5A /* SceneDelegate.swift */,
-				41BDA5AB2365958700134A5A /* ViewController.swift */,
 				41BDA5AD2365958700134A5A /* Main.storyboard */,
 				41BDA5B02365958A00134A5A /* Assets.xcassets */,
 				41BDA5B22365958A00134A5A /* LaunchScreen.storyboard */,
 				41BDA5B52365958A00134A5A /* Info.plist */,
+				41BDA5AB2365958700134A5A /* ViewController.swift */,
+				41BDA5BB2365975300134A5A /* newperson.swift */,
+				41BDA5DF2365C64100134A5A /* personX.swift */,
+				41BDA5E12365CF0E00134A5A /* editPerson.swift */,
 			);
 			path = hahaha;
+			sourceTree = "<group>";
+		};
+		4E1035FD190C88C5D8C9A0A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20B3D77198392931D207D0AB /* Pods-hahaha.debug.xcconfig */,
+				AAC2B592C2051267FE1769A1 /* Pods-hahaha.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE996F4917D885B8DE811104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCD0642FD935D6BE4025FA51 /* Pods_hahaha.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41BDA5B82365958A00134A5A /* Build configuration list for PBXNativeTarget "hahaha" */;
 			buildPhases = (
+				68F71A684E02DA63BA1932CA /* [CP] Check Pods Manifest.lock */,
 				41BDA5A02365958700134A5A /* Sources */,
 				41BDA5A12365958700134A5A /* Frameworks */,
 				41BDA5A22365958700134A5A /* Resources */,
+				89D153CAFE00E4D6270B7035 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +168,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		68F71A684E02DA63BA1932CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hahaha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D153CAFE00E4D6270B7035 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hahaha/Pods-hahaha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hahaha/Pods-hahaha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hahaha/Pods-hahaha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41BDA5A02365958700134A5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +218,9 @@
 				41BDA5AC2365958700134A5A /* ViewController.swift in Sources */,
 				41BDA5A82365958700134A5A /* AppDelegate.swift in Sources */,
 				41BDA5AA2365958700134A5A /* SceneDelegate.swift in Sources */,
+				41BDA5BC2365975300134A5A /* newperson.swift in Sources */,
+				41BDA5E22365CF0E00134A5A /* editPerson.swift in Sources */,
+				41BDA5E02365C64100134A5A /* personX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +362,7 @@
 		};
 		41BDA5B92365958A00134A5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B3D77198392931D207D0AB /* Pods-hahaha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +380,7 @@
 		};
 		41BDA5BA2365958A00134A5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC2B592C2051267FE1769A1 /* Pods-hahaha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
